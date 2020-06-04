@@ -40,7 +40,7 @@ MLOPs Task 3
 
 ## I start jenkins where i create the chain of job to run the all the processs automatically.
 
-- Job1 : Pull the Github repo automatically when some developers push repo to Github.
+## Job1 : Pull the Github repo automatically when some developers push repo to Github.
 
 ![Screenshot (27)](https://user-images.githubusercontent.com/44314055/83646592-78b38400-a5d1-11ea-97b2-2b6f479824c1.png)
 
@@ -63,7 +63,7 @@ sudo cp -v -r -f * /root
 
 ![Screenshot (38)](https://user-images.githubusercontent.com/44314055/83801725-43895d80-a6c7-11ea-9aee-cc7d1508cd92.png)
 
-- Job2 : We've to the build the docker image . 
+## Job2 : We've to the build the docker image . 
 
  ![Screenshot (39)](https://user-images.githubusercontent.com/44314055/83809592-535b6e80-a6d4-11ea-8169-e85132a0b6ba.png)
 
@@ -94,7 +94,7 @@ sudo cp -v -r -f * /root
    
 - fi
 
-Job3 :
+## Job3 :
 
 ![Screenshot (41)](https://user-images.githubusercontent.com/44314055/83809642-74bc5a80-a6d4-11ea-8b60-d42de5389293.png)
 
