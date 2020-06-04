@@ -41,6 +41,7 @@ MLOPs Task 3
 ## I start jenkins where i create the chain of job to run the all the processs automatically.
 
 - Job1 : Pull the Github repo automatically when some developers push repo to Github.
+
 ![Screenshot (27)](https://user-images.githubusercontent.com/44314055/83646592-78b38400-a5d1-11ea-97b2-2b6f479824c1.png)
 
 ![Screenshot (28)](https://user-images.githubusercontent.com/44314055/83646727-abf61300-a5d1-11ea-95d2-ec9c49854dc1.png)
@@ -62,4 +63,14 @@ sudo cp -v -r -f * /root
 
 ![Screenshot (38)](https://user-images.githubusercontent.com/44314055/83801725-43895d80-a6c7-11ea-9aee-cc7d1508cd92.png)
 
-- Job2 : We've to the build the our own docker image according the our code ( that docker image has been created by me though the Dockerfile inside that we've to write the all the libraries required for that code ).
+- Job2 : We've to the build the docker image . 
+
+ ![Screenshot (39)](https://user-images.githubusercontent.com/44314055/83809592-535b6e80-a6d4-11ea-8169-e85132a0b6ba.png)
+
+![Screenshot (40)](https://user-images.githubusercontent.com/44314055/83809620-6706d500-a6d4-11ea-87dd-70d1ab29ecfa.png)
+
+Job3 :
+
+![Screenshot (41)](https://user-images.githubusercontent.com/44314055/83809642-74bc5a80-a6d4-11ea-8b60-d42de5389293.png)
+
+![Screenshot (42)](https://user-images.githubusercontent.com/44314055/83809733-99183700-a6d4-11ea-887a-67a41fdac6bd.png)
