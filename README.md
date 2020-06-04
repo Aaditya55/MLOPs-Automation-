@@ -38,3 +38,24 @@ MLOPs Task 3
 - RUN pip3 imnstall matplotlib
 - RUN pip3 imnstall seaborn
 
+## I start jenkins where i create the chain of job to run the all the processs automatically.
+
+- Job1 : Pull the Github repo automatically when some developers push repo to Github.
+![Screenshot (27)](https://user-images.githubusercontent.com/44314055/83646592-78b38400-a5d1-11ea-97b2-2b6f479824c1.png)
+
+![Screenshot (28)](https://user-images.githubusercontent.com/44314055/83646727-abf61300-a5d1-11ea-95d2-ec9c49854dc1.png)
+
+![Screenshot (29)](https://user-images.githubusercontent.com/44314055/83646763-bd3f1f80-a5d1-11ea-8582-245860c4840f.png)
+
+- OR 
+
+![Screenshot (30)](https://user-images.githubusercontent.com/44314055/83646961-f5466280-a5d1-11ea-8cba-db6e59c10ebc.png)
+
+![Screenshot (31)](https://user-images.githubusercontent.com/44314055/83647014-0a22f600-a5d2-11ea-85a8-91dd59646bf8.png)
+
+![Screenshot (32)](https://user-images.githubusercontent.com/44314055/83648334-89fd9000-a5d3-11ea-812b-34f58eb7eb89.png)
+
+- And My Job-1 Success. 
+
+![Screenshot (38)](https://user-images.githubusercontent.com/44314055/83801725-43895d80-a6c7-11ea-9aee-cc7d1508cd92.png)
+
