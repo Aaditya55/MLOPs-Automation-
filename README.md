@@ -69,6 +69,31 @@ sudo cp -v -r -f * /root
 
 ![Screenshot (40)](https://user-images.githubusercontent.com/44314055/83809620-6706d500-a6d4-11ea-87dd-70d1ab29ecfa.png)
 
+- if sudo docker ps -a | grep tensorenv
+- then
+- sudo docker rm -f tensorenv
+  -  echo "working"
+- elif sudo docker ps -a | grep sklearn
+- then
+- sudo docker rm -f sklearn
+- fi
+
+- if sudo cat /root/mnist.py | grep keras
+- then
+- sudo docker run -d -i -v /root:/root --name tensorenv tensork 
+  -   echo "Tensorflow container is launched"
+  -   exit 0
+   
+- elif sudo cat /root/mnist.py | grep sklearn
+- then
+- sudo docker run -d -i -v /root:/root --name sklearn  sklearn:v1
+  -   echo "sklearn container is launched"
+  -   exit 0
+- else
+- echo "Different Code then ML & DL "
+   
+- fi
+
 Job3 :
 
 ![Screenshot (41)](https://user-images.githubusercontent.com/44314055/83809642-74bc5a80-a6d4-11ea-8b60-d42de5389293.png)
