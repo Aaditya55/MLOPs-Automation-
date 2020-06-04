@@ -24,17 +24,17 @@ MLOPs Task 3
 
 ## CODE For Dockerfile:
 
-FROM centos:latest
+- FROM centos:latest
 
-RUN yum install python3 -y 
-RUN pip install --upgrade pip 
-RUN pip3 install keras
-RUN pip3 install tensorflow
-RUN pip3 install numpy
-RUN pip3 imnstall pandas
-RUN pip3 install skilearn
-RUN pip3 install scipy
-RUN pip3 imnstall pillow
-RUN pip3 imnstall matplotlib
-RUN pip3 imnstall seaborn
+- RUN yum install python3 -y 
+- RUN pip install --upgrade pip 
+- RUN pip3 install keras
+- RUN pip3 install tensorflow
+- RUN pip3 install numpy
+- RUN pip3 imnstall pandas
+- RUN pip3 install skilearn
+- RUN pip3 install scipy
+- RUN pip3 imnstall pillow
+- RUN pip3 imnstall matplotlib
+- RUN pip3 imnstall seaborn
 
