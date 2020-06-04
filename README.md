@@ -20,3 +20,21 @@ MLOPs Task 3
    - Job4 : We,ve to run the CNN code inside our docker & find the Accuracy of the model.
 
    - Job5 : We,ve to send the notification to the developer if accuracy of the model is more than 80%.
+   
+
+## CODE For Dockerfile:
+
+FROM centos:latest
+
+RUN yum install python3 -y 
+RUN pip install --upgrade pip 
+RUN pip3 install keras
+RUN pip3 install tensorflow
+RUN pip3 install numpy
+RUN pip3 imnstall pandas
+RUN pip3 install skilearn
+RUN pip3 install scipy
+RUN pip3 imnstall pillow
+RUN pip3 imnstall matplotlib
+RUN pip3 imnstall seaborn
+
