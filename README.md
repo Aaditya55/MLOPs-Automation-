@@ -57,5 +57,8 @@ MLOPs Task 3
 
 - And My Job-1 Success. 
 
+sudo cp -v -r -f * /root
+
+
 ![Screenshot (38)](https://user-images.githubusercontent.com/44314055/83801725-43895d80-a6c7-11ea-9aee-cc7d1508cd92.png)
 
