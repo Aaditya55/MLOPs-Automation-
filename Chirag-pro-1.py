@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+from learning_parameters import *
 # In[1]:
 
 
@@ -149,7 +149,7 @@ model.add(Dense(units=1,  activation='sigmoid' ))
 # In[24]:
 
 
-model.compile(optimizer=Adam(learning_rate=0.000001),loss='binary_crossentropy', metrics=['accuracy'] )
+model.compile(optimizer=Adam(learning_rate=ler_para),loss='binary_crossentropy', metrics=['accuracy'] )
 
 
 # In[25]:
