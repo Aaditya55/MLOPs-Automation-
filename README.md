@@ -67,7 +67,8 @@ sudo cp -v -r -f * /root
 
  ![Screenshot (39)](https://user-images.githubusercontent.com/44314055/83809592-535b6e80-a6d4-11ea-8169-e85132a0b6ba.png)
 
-![Screenshot (40)](https://user-images.githubusercontent.com/44314055/83809620-6706d500-a6d4-11ea-87dd-70d1ab29ecfa.png)
+ ![Screenshot (54)](https://user-images.githubusercontent.com/44314055/83954558-e37ded00-a867-11ea-802c-dc48bf1850b0.png)
+
 
 - if sudo docker ps -a | grep tensorenv
 - then
@@ -94,11 +95,23 @@ sudo cp -v -r -f * /root
    
 - fi
 
+![Screenshot (52)](https://user-images.githubusercontent.com/44314055/83954581-0c05e700-a868-11ea-97e5-a820866c9b71.png)
+
+
 ## Job3 :
 
 ![Screenshot (41)](https://user-images.githubusercontent.com/44314055/83809642-74bc5a80-a6d4-11ea-8b60-d42de5389293.png)
 
-![Screenshot (42)](https://user-images.githubusercontent.com/44314055/83809733-99183700-a6d4-11ea-887a-67a41fdac6bd.png)
+- sudo cd /root/
+- sudo docker exec -w /root tensorenv python3 Chirag-pro-1.py > accr.txt
+
+
+![Screenshot (55)](https://user-images.githubusercontent.com/44314055/83954606-61da8f00-a868-11ea-9fde-15dbd7410907.png)
+
+#### Job 3 Success
+
+![Screenshot (53)](https://user-images.githubusercontent.com/44314055/83954618-80408a80-a868-11ea-96e1-e8c5a9e527f8.png)
+
 
 ## Job 4 :
 
