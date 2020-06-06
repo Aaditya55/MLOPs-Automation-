@@ -117,3 +117,21 @@ sudo cp -v -r -f * /root
 
 ![Screenshot (43)](https://user-images.githubusercontent.com/44314055/83812697-966c1080-a6d9-11ea-93f4-a4238e8e9610.png)
 
+- sudo docker cp tensorsenv:/root/accr.txt .
+- sudo docker cp tensorsenv:/root/learning_parameters.py .
+- echo $(cat accr.txt)
+- if [[" $(cat accr.txt) " < " 0.8500 " ]]
+- then
+       - echo "Model twicking"
+       - sudo chmod 0777 /root/parameters.py
+       - echo -e "ler_para=ler_para*0.1" >> learning_parameters.py
+       - sudo docker exec -tt -w /root tensorsenv echo -e "ler_para*0.1" >> learning_parameters.py
+       - sudo "Model twicked"
+       - exit 1
+- else
+       - echo "Model Trained"
+       - exit 0
+- fi
+
+![Screenshot (58)](https://user-images.githubusercontent.com/44314055/83954889-b717a000-a86a-11ea-96e6-5c50c08304ab.png)
+
