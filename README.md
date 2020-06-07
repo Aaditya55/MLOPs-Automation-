@@ -60,6 +60,7 @@ MLOPs Task 3
 
 sudo cp -v -r -f * /root
 
+#### Job 1 Success
 
 ![Screenshot (38)](https://user-images.githubusercontent.com/44314055/83801725-43895d80-a6c7-11ea-9aee-cc7d1508cd92.png)
 
@@ -94,6 +95,8 @@ sudo cp -v -r -f * /root
 - echo "Different Code then ML & DL "
    
 - fi
+
+#### Job 2 Success
 
 ![Screenshot (52)](https://user-images.githubusercontent.com/44314055/83954581-0c05e700-a868-11ea-97e5-a820866c9b71.png)
 
@@ -135,4 +138,9 @@ sudo cp -v -r -f * /root
 - fi
 
 ![Screenshot (58)](https://user-images.githubusercontent.com/44314055/83954889-b717a000-a86a-11ea-96e6-5c50c08304ab.png)
+
+#### Job 4 Success 
+
+![Screenshot (62)](https://user-images.githubusercontent.com/44314055/83969731-351d8a80-a8ef-11ea-9215-e5aa28021d28.png)
+
 
