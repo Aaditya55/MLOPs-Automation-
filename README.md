@@ -35,8 +35,6 @@ MLOPs Task 3
 - RUN pip3 install skilearn
 - RUN pip3 install scipy
 - RUN pip3 imnstall pillow
-- RUN pip3 imnstall matplotlib
-- RUN pip3 imnstall seaborn
 
 - Screenshot of Dockerfile :
  
