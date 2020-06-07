@@ -57,10 +57,11 @@ MLOPs Task 3
 ![Screenshot (32)](https://user-images.githubusercontent.com/44314055/83648334-89fd9000-a5d3-11ea-812b-34f58eb7eb89.png)
 
 - And My Job-1 Success. 
+- This is achieved by bash script as below:
+        
+         sudo cp -v -r -f * /root
 
-      sudo cp -v -r -f * /root
-
-#### Job 1 Success
+#### Job 1 Success 
 
 ![Screenshot (38)](https://user-images.githubusercontent.com/44314055/83801725-43895d80-a6c7-11ea-9aee-cc7d1508cd92.png)
 
@@ -70,6 +71,7 @@ MLOPs Task 3
 
  ![Screenshot (54)](https://user-images.githubusercontent.com/44314055/83954558-e37ded00-a867-11ea-802c-dc48bf1850b0.png)
 
+- This is achieved by bash script as below:
 
       if sudo docker ps -a | grep tensorenv
       then
@@ -101,13 +103,13 @@ MLOPs Task 3
 ![Screenshot (52)](https://user-images.githubusercontent.com/44314055/83954581-0c05e700-a868-11ea-97e5-a820866c9b71.png)
 
 
-## Job3 :
-        This job purpose is to run and train the model only.
+## Job3 :  This job purpose is to run and train the model only.
 
 ![Screenshot (41)](https://user-images.githubusercontent.com/44314055/83809642-74bc5a80-a6d4-11ea-8b60-d42de5389293.png)
 
-- sudo cd /root/
-- sudo docker exec -w /root tensorenv python3 Chirag-pro-1.py > accr.txt
+- This is achieved by bash script as below:
+       sudo cd /root/
+       sudo docker exec -w /root tensorenv python3 Chirag-pro-1.py > accr.txt
 
 
 ![Screenshot (55)](https://user-images.githubusercontent.com/44314055/83954606-61da8f00-a868-11ea-9fde-15dbd7410907.png)
@@ -117,27 +119,28 @@ MLOPs Task 3
 ![Screenshot (53)](https://user-images.githubusercontent.com/44314055/83954618-80408a80-a868-11ea-96e1-e8c5a9e527f8.png)
 
 
-## Job 4 :
-        Now this job is very important and owes almost all the automation. Here we are comparing the accuracy stored in a text file to our desired level (in my case it is 85% i.e 0.85). 
+## Job 4 :  Now this job is very important and owes almost all the automation. Here we are comparing the accuracy stored in a text file to our desired level (in my case it is 85% i.e 0.85). 
 
 ![Screenshot (43)](https://user-images.githubusercontent.com/44314055/83812697-966c1080-a6d9-11ea-93f4-a4238e8e9610.png)
 
-- sudo docker cp tensorsenv:/root/accr.txt .
-- sudo docker cp tensorsenv:/root/learning_parameters.py .
-- echo $(cat accr.txt)
-- if [[" $(cat accr.txt) " < " 0.8500 " ]]
-- then
-   - echo "Model twicking"
-   - sudo chmod 0777 /root/parameters.py
-   - echo -e "ler_para=ler_para*0.1" >> learning_parameters.py   
-   - sudo docker exec -tt -w /root tensorsenv echo -e "ler_para*0.1" >> learning_parameters.py
-   - sudo "Model twicked"
-   - exit 1
+- This is achieved by bash script as below:
+      
+       sudo docker cp tensorsenv:/root/accr.txt .
+       sudo docker cp tensorsenv:/root/learning_parameters.py .
+       echo $(cat accr.txt)
+       if [[" $(cat accr.txt) " < " 0.8500 " ]]
+       then
+          echo "Model twicking"
+          sudo chmod 0777 /root/parameters.py
+          echo -e "ler_para=ler_para*0.1" >> learning_parameters.py   
+          sudo docker exec -tt -w /root tensorsenv echo -e "ler_para*0.1" >> learning_parameters.py
+          sudo "Model twicked"
+          exit 1
        
-- else
-     - echo "Model Trained"
-     - exit 0
-- fi
+       else
+          echo "Model Trained"
+          exit 0
+       fi
 
 ![Screenshot (58)](https://user-images.githubusercontent.com/44314055/83954889-b717a000-a86a-11ea-96e6-5c50c08304ab.png)
 
