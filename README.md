@@ -58,44 +58,43 @@ MLOPs Task 3
 
 - And My Job-1 Success. 
 
-sudo cp -v -r -f * /root
+      sudo cp -v -r -f * /root
 
 #### Job 1 Success
 
 ![Screenshot (38)](https://user-images.githubusercontent.com/44314055/83801725-43895d80-a6c7-11ea-9aee-cc7d1508cd92.png)
 
-## Job2 : 
-       This is to check the container required for model training and starting it. We've to the build the docker image . 
+## Job2 :  This is to check the container required for model training and starting it. We've to the build the docker image . 
 
  ![Screenshot (39)](https://user-images.githubusercontent.com/44314055/83809592-535b6e80-a6d4-11ea-8169-e85132a0b6ba.png)
 
  ![Screenshot (54)](https://user-images.githubusercontent.com/44314055/83954558-e37ded00-a867-11ea-802c-dc48bf1850b0.png)
 
 
- if sudo docker ps -a | grep tensorenv
- then
- sudo docker rm -f tensorenv
-    echo "working"
-- elif sudo docker ps -a | grep sklearn
-- then
-- sudo docker rm -f sklearn
-- fi
+      if sudo docker ps -a | grep tensorenv
+      then
+      sudo docker rm -f tensorenv
+         echo "working"
+      elif sudo docker ps -a | grep sklearn
+      then
+      sudo docker rm -f sklearn
+      fi
 
-- if sudo cat /root/mnist.py | grep keras
-- then
-- sudo docker run -d -i -v /root:/root --name tensorenv tensork 
-  -   echo "Tensorflow container is launched"
-  -   exit 0
+      if sudo cat /root/mnist.py | grep keras
+      then
+      sudo docker run -d -i -v /root:/root --name tensorenv tensork 
+         echo "Tensorflow container is launched"
+         exit 0
    
-- elif sudo cat /root/mnist.py | grep sklearn
-- then
-- sudo docker run -d -i -v /root:/root --name sklearn  sklearn:v1
-  -   echo "sklearn container is launched"
-  -   exit 0
-- else
-- echo "Different Code then ML & DL "
+      elif sudo cat /root/mnist.py | grep sklearn
+      then
+      sudo docker run -d -i -v /root:/root --name sklearn  sklearn:v1
+         echo "sklearn container is launched"
+         exit 0
+      else
+      echo "Different Code then ML & DL "
    
-- fi
+      fi
 
 #### Job 2 Success
 
