@@ -21,6 +21,8 @@ MLOPs Task 3
 
    - Job5 : We,ve to send the notification to the developer if accuracy of the model is more than 80%.
    
+   ## All Screenshots :  https://github.com/Chirag321ratvekar/MLOPs-Automation-/issues
+   
 
 ## CODE For Dockerfile:
 
