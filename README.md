@@ -64,7 +64,8 @@ sudo cp -v -r -f * /root
 
 ![Screenshot (38)](https://user-images.githubusercontent.com/44314055/83801725-43895d80-a6c7-11ea-9aee-cc7d1508cd92.png)
 
-## Job2 : We've to the build the docker image . 
+## Job2 : 
+       This is to check the container required for model training and starting it. We've to the build the docker image . 
 
  ![Screenshot (39)](https://user-images.githubusercontent.com/44314055/83809592-535b6e80-a6d4-11ea-8169-e85132a0b6ba.png)
 
@@ -102,6 +103,7 @@ sudo cp -v -r -f * /root
 
 
 ## Job3 :
+        This job purpose is to run and train the model only.
 
 ![Screenshot (41)](https://user-images.githubusercontent.com/44314055/83809642-74bc5a80-a6d4-11ea-8b60-d42de5389293.png)
 
@@ -117,6 +119,7 @@ sudo cp -v -r -f * /root
 
 
 ## Job 4 :
+        Now this job is very important and owes almost all the automation. Here we are comparing the accuracy stored in a text file to our desired level (in my case it is 85% i.e 0.85). 
 
 ![Screenshot (43)](https://user-images.githubusercontent.com/44314055/83812697-966c1080-a6d9-11ea-93f4-a4238e8e9610.png)
 
