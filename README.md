@@ -154,10 +154,10 @@ MLOPs Task 3
 
 ![Screenshot (62)](https://user-images.githubusercontent.com/44314055/83969731-351d8a80-a8ef-11ea-9215-e5aa28021d28.png)
 
-## Job 5 :
+## Job 5 : Job for NOtifying Through Mail.
 
 ![Screenshot (64)](https://user-images.githubusercontent.com/44314055/83975938-68264500-a914-11ea-894f-8db6a726b240.png)
 
-## Job 6 :
+## Job 6 : This is just to stop the running docker container if they are running
 
 ![Screenshot (65)](https://user-images.githubusercontent.com/44314055/83975955-7ecc9c00-a914-11ea-8ee0-e8113cdba9fc.png)
