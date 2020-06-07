@@ -38,6 +38,12 @@ MLOPs Task 3
 - RUN pip3 imnstall matplotlib
 - RUN pip3 imnstall seaborn
 
+- Screenshot of Dockerfile :
+ 
+ ![Screenshot (34)](https://user-images.githubusercontent.com/44314055/83648378-9c77c980-a5d3-11ea-9520-22d3a4add485.png)
+
+
+
 ## I start jenkins where i create the chain of job to run the all the processs automatically.
 
 ## Job1 : Pull the Github repo automatically when some developers push repo to Github.
