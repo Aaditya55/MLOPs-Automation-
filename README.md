@@ -72,10 +72,10 @@ sudo cp -v -r -f * /root
  ![Screenshot (54)](https://user-images.githubusercontent.com/44314055/83954558-e37ded00-a867-11ea-802c-dc48bf1850b0.png)
 
 
-- if sudo docker ps -a | grep tensorenv
-- then
-- sudo docker rm -f tensorenv
-  -  echo "working"
+ if sudo docker ps -a | grep tensorenv
+ then
+ sudo docker rm -f tensorenv
+    echo "working"
 - elif sudo docker ps -a | grep sklearn
 - then
 - sudo docker rm -f sklearn
